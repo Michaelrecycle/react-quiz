@@ -16,65 +16,12 @@ import "./reset.css";
 
 // Import icons
 
-//Question 1
-import acousticIcon from "./assets/Icons/acoustic_guitar.png";
-import electricIcon from "./assets/Icons/electric_guitar.png";
-import pianoIcon from "./assets/Icons/piano.png";
-import drumsIcon from "./assets/Icons/drums.png";
-import violinIcon from "./assets/Icons/violin.png";
-import saxophoneIcon from "./assets/Icons/saxophone.png";
-import bassIcon from "./assets/Icons/bassguitar.png";
-import vocalsIcon from "./assets/Icons/vocals.png";
-import otherIcon from "./assets/Icons/other.png";
-import nopeIcon from "./assets/Icons/nope.png";
-
-//Question 2
-import rockIcon from "./assets/Icons/rock.png";
-import popIcon from "./assets/Icons/pop.png";
-import classicalIcon from "./assets/Icons/classical.png";
-import jazzIcon from "./assets/Icons/jazz.png";
-import hiphopIcon from "./assets/Icons/hip-hop.png";
-import bluesIcon from "./assets/Icons/blues.png";
-import countryIcon from "./assets/Icons/country.png";
-import mainstreamIcon from "./assets/Icons/mainstream.png";
-
-//Question 3
-import plusIcon from "./assets/Icons/plus.png";
-import crossIcon from "./assets/Icons/cross.png";
-
-//Question 4
-import nextIcon from "./assets/Icons/next.png";
-
-//Question 5
-import rhythmIcon from "./assets/Icons/rhythm.png";
-import melodyIcon from "./assets/Icons/melody.png";
-import bothIcon from "./assets/Icons/both.png";
-
-// Question 7
-import socialIcon from "./assets/Icons/social.png";
-import normalIcon from "./assets/Icons/normal.png";
-import shyIcon from "./assets/Icons/shy.png";
-import antisocialIcon from "./assets/Icons/antisocial.png";
-
-//Question 8
-import concertIcon from "./assets/Icons/concert.png";
-import globeIcon from "./assets/Icons/globe.png";
-import partiesIcon from "./assets/Icons/parties.png";
-import homeIcon from "./assets/Icons/house.png";
-
-//Question 10
-import planeIcon from "./assets/Icons/plane.png";
-import suitcaseIcon from "./assets/Icons/suitcase.png";
-import calendarIcon from "./assets/Icons/calendar.png";
-
 // Import Components
 import OptionCard from "./components/options/OptionCard";
 import ProgressBar from "./components/progress-bar/ProgressBar";
 import Slider from "./components/slider-bar/Slider";
 import ResultScreen from "./components/result-screen/ResultScreen";
 
-//Results background
-import concertBackground from "./assets/concert_background.jpg";
 
 class App extends React.Component {
   /* 
