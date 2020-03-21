@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap");
+.slider-container {
+  width: 100%;
+  /* display: flex;
+    justify-content: center; */
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sliderOuter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.sliderTitle {
+  font-size: 2rem;
+  padding-bottom: 0.5%;
+}
+
+.nextCard {
+  /* Title styling */
+  font-size: 100%;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 110%;
+  margin: 1%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  /* Structure */
+  height: 10vh;
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 20%;
+
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+
+  transition: all 0.2s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nextCard:hover {
+  transform: scale(1.02);
+  border: 1px solid green;
+  background-color: white;
+}
+
+/* Image Styling */
+.nextIcon {
+  height: 4vh;
+  width: auto;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+@media only screen and (max-width: 1500px) {
+  .sliderTitle {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .sliderTitle {
+    font-size: 1.6rem;
+  }
+
+  .nextCard {
+    font-size: 80%;
+    height: 9vh;
+  }
+  .nextIcon {
+    height: 3vh;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .nextCard {
+    font-size: 80%;
+    height: 8vh;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .sliderTitle {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .nextCard {
+    height: 7vh;
+  }
+  .nextIcon {
+    height: 2.5vh;
+  }
+  .slider-container{
+      margin-bottom: 5%;
+  }
+}
+@media only screen and (max-width: 450px) {
+    .sliderTitle {
+        font-size: 1.3rem;
+      }
+    .nextCard {
+      height: 6vh;
+      font-size: 70%;
+    }
+    .nextIcon {
+      height: 2vh;
+    }
+    .slider-container{
+        margin-bottom: 7%;
+    }
+  }
+  

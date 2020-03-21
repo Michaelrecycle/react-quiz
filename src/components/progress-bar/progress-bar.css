@@ -1,0 +1,56 @@
+.progressTitle {
+  font-size: 1.2rem;
+}
+
+.barContainer {
+  height: 20px;
+  position: relative;
+  background: #0a520a;
+  margin-bottom: 1% !important;
+  width: 40%;
+
+  display: flex;
+
+  justify-content: flex-start;
+
+  align-items: center;
+  margin: auto;
+  margin-top: 0.5rem !important;
+}
+
+.progressMeter {
+  display: block;
+  height: 100%;
+
+  transition: 0.4s linear;
+
+  transition-property: width, background-color;
+
+  background-image: linear-gradient(
+    90deg,
+    #43e97b,
+    #31ee95,
+    #25f2ae,
+    #27f6c3,
+    #38f9d7
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+@media only screen and (max-width: 1500px) {
+.barContainer{
+  width: 60%;
+}
+}
+@media only screen and (max-width: 800px) {
+  .barContainer{
+    width: 70%;
+  }
+  }
+  @media only screen and (max-width: 500px) {
+    .barContainer{
+      width: 80%;
+    }
+    }

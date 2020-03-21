@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap");
+.resultContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  width: 75%;
+}
+
+a {
+  text-decoration: none;
+}
+.resultIcon {
+  height: 100%;
+  width: 13%;
+  padding-bottom: 5%;
+  align-self: center;
+}
+
+.resultTitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-bottom: 5%;
+}
+
+.buttonContainer {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.buttonContainer a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  background-image: linear-gradient(
+    to right top,
+    #c644fc,
+    #aa4df5,
+    #8e53ed,
+    #7355e2,
+    #5856d6
+  );
+  background-size: 200% auto;
+  margin-top: 10%;
+  transition: 0.3s;
+  width: 50%;
+  padding: 8% 20%;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.button span {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+}
+.button:hover {
+  background-position: top right;
+  transform: scale(1.02);
+}
+
+.resultText {
+  font-family: "Raleway", sans-serif;
+  line-height: 200%;
+  padding-bottom: 5%;
+  text-align: justify;
+}
+
+/* MEDIA QUIRIES */
+@media only screen and (max-width: 1700px) {
+  .resultTitle {
+    font-size: 1.7rem;
+  }
+  .resultText {
+    font-size: 80%;
+  }
+  .discount {
+    font-size: 80%;
+  }
+  .button {
+    padding: 7% 18%;
+  }
+  .button span {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .resultTitle {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .button {
+    padding: 6% 13%;
+  }
+  .button span {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .resultText {
+    font-size: 75%;
+  }
+  .resultText {
+    padding-bottom: 7%;
+  }
+  .discount {
+    padding-bottom: 5%;
+  }
+  .buttonContainer{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .resultTitle {
+    font-size: 1.1rem;
+    padding-bottom: 7%;
+  }
+  .discount {
+    padding-bottom: 5%;
+  }
+  .resultText {
+    font-size: 75%;
+    padding-bottom: 7%;
+  }
+  .resultContainer {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .buttonContainer{
+  
+    flex-direction: column;
+  }
+  .resultIcon{
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .buttonContainer{
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .resultContainer{
+    width: 90%;
+  }
+  .button {
+    padding: 7% 11.5%;
+  }
+  .button span {
+    font-size: 0.9rem;
+  }
+  .resultTitle {
+    
+    padding-bottom: 10%;
+  }
+  .discount {
+    padding-bottom: 7%;
+  }
+  .resultText {
+    
+    padding-bottom: 10%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  
+ .resultIcon{
+   padding-bottom: 10%;
+   padding-top: 5%;
+ }
+  .resultTitle {
+    
+    padding-bottom: 15%;
+  }
+  .discount {
+    padding-bottom: 8%;
+  }
+  .resultText {
+    
+    padding-bottom: 13%;
+  }
+}

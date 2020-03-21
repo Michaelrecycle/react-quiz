@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap");
+
+.optionCard {
+  /* Title styling */
+  font-size: 100%;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 150%;
+
+  /* Structure */
+  height: 20vh;
+  background-color: rgba(255, 255, 255, 0.95);
+  
+  
+ 
+
+  
+  width: 100%;
+  margin: 5%;
+  padding: 5%;
+
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+
+  transition: all 0.2s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.optionCard:hover {
+  transform: scale(1.02);
+  border: 1px solid green;
+  background-color: white;
+}
+
+/* Image Styling */
+.optionIcon {
+  height: 8vh;
+  width: auto;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+
+@media only screen and (max-width: 1400px) {
+
+  .optionCard {
+    font-size: 80%;
+    padding: 2%;
+  }
+  .optionIcon{
+      height: 7vh;
+  }
+}
+@media only screen and (max-width: 1000px){
+    .optionCard {
+        font-size: 75%;
+        height: 16vh;
+        
+      }
+      .optionIcon{
+        height: 6.5vh;
+    }
+  }
+
+  @media only screen and (max-width: 700px){
+    .optionCard {
+        font-size: 70%;
+        height: 14vh;
+        padding: 1%;
+        
+      }
+      .optionIcon{
+        height: 6vh;
+    }
+  }
+  
+  @media only screen and (max-width: 600px){
+    .optionCard {
+        font-size: 60%;
+        height: 13vh;
+        padding: 0.5%;
+        
+      }
+      .optionIcon{
+        height: 4.5vh;
+    }
+  }
+  @media only screen and (max-width: 500px){
+    .optionCard {
+        font-size: 55%;
+        height: 12vh;
+        padding: 0.5%;
+        
+      }
+      .optionIcon{
+        height: 4.5vh;
+    }
+  }
+  @media only screen and (max-width: 360px){
+    .optionCard {
+        font-size: 58%;
+        height: 15vh;
+        padding: 0.5%;
+        
+      }
+    
+  }
