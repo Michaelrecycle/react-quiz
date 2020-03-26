@@ -555,10 +555,10 @@ magnitude -> A positive number that multiplies the incrementation/decrementation
   
   */
   updateCurrentQuestion = () => {
-    this.setState(state => {
+    this.setState((prevState) => {
       // Update current question
       return {
-        currentQuestion: this.state.currentQuestion + 1
+        currentQuestion: prevState.currentQuestion + 1
       };
     });
   };
